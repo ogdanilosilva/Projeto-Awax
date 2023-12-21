@@ -127,6 +127,11 @@ body {
     text-transform: uppercase;
 }
 
+.button:hover {
+    background-color: #906636;
+    border: 1px solid #906636   ;
+}
+
 .banner .sliders-pointers {
     width: 100vw;
     height: 15px;
@@ -242,15 +247,16 @@ footer {
 
 .footer--item.area2 {
     color: #999;
-    line-height: 20px;
+    line-height: 22px;
     font-size: 13px;
-    padding: 0 10px 10px 10px;
+    padding-right: 55px;
 }
 
 .footer--item.area3 form {
     background-color: #333;
     text-align: center;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .footer--item.area3 input {
@@ -264,7 +270,7 @@ footer {
     font-size: 14px;
     text-align: center;
 }
-
+ 
 .section-about {
     display: flex;
 }
@@ -274,12 +280,12 @@ footer {
 }
 
 .section-about--left p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 25px;
 }
 
 .section-about--right {
-    width: 520px;
+    width: 550px;
     text-align: center;
 }
 
@@ -917,6 +923,10 @@ footer {
     margin-right: 15px;
 }
 
+.section-map--info-item-img:hover {
+    background-color: #b28756;
+}
+
 .section-map--info-item-img img {
     width: 16px;
     height: auto;
@@ -1019,7 +1029,7 @@ footer {
 @media (max-width: 450px) {
 
     .menu-open {
-        width: 45px;
+        width: 40px;
         margin-right: 30px;
         display: block;
     }
@@ -1143,7 +1153,6 @@ footer {
         max-width: 350px;
         margin: auto;
     }
-
 
     .section-premium .slidearea {
         flex-direction: column;
